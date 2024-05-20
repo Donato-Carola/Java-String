@@ -10,22 +10,20 @@
 
 // The character at position 10 is i
 
-
-
 import java.util.Scanner;
 
-public class main{
+public class main {
     public static void main(String[] args) {
-        Scanner scan= new Scanner(System.in);
-     System.out.println("inserisci stringa");
-     String str = scan.nextLine();
+        Scanner scan = new Scanner(System.in);
+        System.out.println("inserisci stringa");
+        String str = scan.nextLine();
 
-     System.err.println("inserisci posizione indice della lettera");
-     int num = scan.nextInt();
+        System.err.println("inserisci posizione indice della lettera");
+        int num = scan.nextInt();
 
-     char r = str.charAt(num);
+        char r = str.charAt(num);
 
-     System.out.println("la lettera alla psizione " + num + " è " + r);
+        System.out.println("la lettera alla psizione " + num + " è " + r);
 
     }
 }
