@@ -39,20 +39,50 @@
 // Character: p
 
 // posiction: 0
+// import java.util.Scanner;
+
+// public class main {
+//         public static void main(String[] args) {
+//             Scanner scan = new Scanner(System.in);
+//             System.out.println("inserisci stringa");
+//             String str = scan.nextLine();
+    
+//             System.err.println("inserisci carattere da cercare");
+//             String chara = scan.nextLine();
+      
+//             int position = str.indexOf(chara);
+           
+//             System.out.println("il carattere inserito " + chara + " si trova: " + position );
+    
+//         }
+//     }
+
+//!     Esercizio 3
+
+// Scrivere un programma che, prese due stringhe in input, stampi la loro unione.
+
+// Esempio
+
+// Stringa1: ciao
+
+// Stringa2: mamma
+
+// Stringhe unite: ciao mamma
+
 import java.util.Scanner;
 
 public class main {
         public static void main(String[] args) {
             Scanner scan = new Scanner(System.in);
-            System.out.println("inserisci stringa");
-            String str = scan.nextLine();
+            System.out.println("inserisci prima stringa");
+            String str1 = scan.nextLine();
     
-            System.err.println("inserisci carattere da cercare");
-            String chara = scan.nextLine();
+            System.err.println("inserisci seconda stringa");
+            String str2 = scan.nextLine();
       
-            int position = str.indexOf(chara);
+            String union = str1 + " " + str2;
            
-            System.out.println("il carattere inserito " + chara + " si trova: " + position );
+            System.out.println("l'unione tra le due parole è: "  + union);
     
         }
     }
